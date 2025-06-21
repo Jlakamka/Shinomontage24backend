@@ -2,7 +2,7 @@
   "name": "shinomontage24backend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",

@@ -28,6 +28,7 @@ const recordsList = [
 app.post("/record/", (req, res) => {
   const test = req.body;
   recordsList.unshift(test);
+  console.log(test);
   res.send(JSON.stringify({ res: "ok" }));
 });
 app.get("/records", (req, res) => {
